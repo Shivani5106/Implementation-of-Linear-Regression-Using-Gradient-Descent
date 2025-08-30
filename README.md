@@ -68,6 +68,8 @@ X1_Scaled = scaler.fit_transform(X1)
 
 # Standardize target
 Y1_Scaled = scaler.fit_transform(y)
+print("NAME:SHIVANI M")
+print("Register No: 212224040313")
 
 # Print original features and scaled features
 print(X)
@@ -95,12 +97,14 @@ pre = scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
 
+
 ```
 
 
 ## Output:
 ### Value of X
-<img width="285" height="830" alt="image" src="https://github.com/user-attachments/assets/0cd8834a-0961-4f4a-89c2-27991c582875" />
+<img width="322" height="722" alt="image" src="https://github.com/user-attachments/assets/b2cbcee5-80c8-4a8f-9a17-7b09e119846c" />
+
 
 ### Value of Y
 <img width="479" height="851" alt="image" src="https://github.com/user-attachments/assets/b1c3bb13-e5cd-4881-ab87-5fcc5cd84725" />
